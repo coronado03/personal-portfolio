@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=VT323&display=swap');
+
+
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}
+
+.animated-section {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotatex(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.skill-icons {
+    width: 100px;  
+    height: auto;  
+}
+
+.nav-pills-diff {
+    color: #fff;
+    background-color: #212529;
+}
