@@ -29,7 +29,12 @@
     height: auto;  
 }
 
-.nav-pills-diff {
-    color: #fff;
+.black{
+    color: #212529;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #212529;
 }

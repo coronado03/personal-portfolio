@@ -18,22 +18,22 @@ export default function Skills() {
           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
             <Row className="mt-4">
               <Col sm={3} className="mb-3">
-                <Nav variant="pills" className="flex-column ">
+                <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Front End</Nav.Link>
+                    <Nav.Link className="black" eventKey="first">Front End</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>  
+                    <Nav.Link className="black" eventKey="second">Back End</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Back End</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="third">Other</Nav.Link>
+                    <Nav.Link className="black" eventKey="third">Other</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <Row xs={2} lg={6}>
+                    <Row className="gy-3" xs={2} lg={6}>
                       <Col>
                         <Image
                           src="\skill-images\HTML5.svg"
@@ -77,7 +77,7 @@ export default function Skills() {
                   </Tab.Pane>
 
                   <Tab.Pane eventKey="second">
-                    <Row xs={2} lg={6}>
+                    <Row className="gy-3" xs={2} lg={6}>
                       <Col>
                         <Image
                           src="\skill-images\NODEJS.svg"
@@ -112,7 +112,7 @@ export default function Skills() {
                   </Tab.Pane>
 
                   <Tab.Pane eventKey="third">
-                    <Row xs={2} lg={6}>
+                    <Row className="gy-3" xs={2} lg={6}>
                       <Col>
                         <Image
                           src="\skill-images\GIT.svg"

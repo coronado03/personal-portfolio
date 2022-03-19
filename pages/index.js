@@ -5,7 +5,7 @@ import Work from "../components/work";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import About from "../components/about";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Home() {
   return (

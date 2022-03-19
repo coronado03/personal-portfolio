@@ -35,7 +35,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
-                    <Button variant="outline-primary">Live Demo</Button>
+                    <Button variant="warning">Live Demo</Button>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
                     <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
@@ -59,7 +59,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
-                    <Button variant="outline-primary">Live Demo</Button>
+                    <Button variant="warning">Live Demo</Button>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
                     <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
@@ -83,7 +83,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
-                    <Button variant="outline-primary">Live Demo</Button>
+                    <Button variant="warning">Live Demo</Button>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
                     <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
@@ -107,7 +107,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
-                    <Button variant="outline-primary">Live Demo</Button>
+                    <Button variant="warning">Live Demo</Button>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
                     <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
