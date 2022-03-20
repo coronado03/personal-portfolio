@@ -1,4 +1,4 @@
-import { Container, Button, Row, Col, Image} from "react-bootstrap";
+import { Container, Button, Row, Col, Image } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -11,7 +11,20 @@ export default function About() {
           <p className="text-warning">Who is Sebastian?</p>
           <Row>
             <Col>
-              <p className="text-light">text text textetete</p>
+              <p className="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+{" "}
+              </p>
+
+              <p className="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio.{" "}
+              </p>
             </Col>
             <Col className="d-none d-lg-block">
               <Image src="/about_undraw.svg" />
