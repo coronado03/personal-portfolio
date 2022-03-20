@@ -6,13 +6,13 @@ export default function Hero() {
       <Container className="animated-section pb-5">
         <Row>
           <Col md={6} className="d-none d-lg-block">
-            <Image
-              src= "/undraw_starry_window_re_0v82.svg"/>
+            <Image className="align-self-end"
+              src= "/main_undraw.svg"/>
             
           </Col>
           <Col md={12} lg={6}>
             <Row id="main" className="mt-3">
-              <h4 className="text-muted">{"<Sofware Engineer/>"}</h4>
+              <h4 className="text-muted">{"<Software Engineer/>"}</h4>
             </Row>
             <Row className="fs-1">
               <h1>Sebastian Coronado</h1>

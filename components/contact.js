@@ -8,7 +8,7 @@ export default function Contact() {
           <Row>
             <h1 className="text-light">Contact</h1>
           </Row>
-            <p className="text-muted">Always active for different types of jobs, I'm just one click away.</p>
+            <p className="text-warning">Always active for different types of jobs, I'm just one click away.</p>
             <Row>
 
             </Row>
