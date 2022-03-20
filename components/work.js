@@ -14,7 +14,7 @@ import Link from "next/link";
 export default function Work() {
   return (
     <>
-      <Container id="work" className="animated-section my-5">
+      <Container id="work" className="animated-section py-5">
         <Row>
           <h1>Work</h1>
         </Row>

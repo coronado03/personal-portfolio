@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <Container fluid id="about" className="mt-3 bg-dark">
-        <Container className="animated-section p-3">
+        <Container className="animated-section py-5">
           <Row>
             <h1 className="text-light">About Me</h1>
           </Row>

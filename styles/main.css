@@ -41,3 +41,11 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #212529;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffc107;
+}

@@ -3,7 +3,7 @@ import { Container, Button, Row, Form } from "react-bootstrap";
 export default function Contact() {
   return (
     <>
-      <Container fluid id="about" className="mt-3 bg-dark">
+      <Container fluid id="contact" className="mt-3 bg-dark">
         <Container className="animated-section p-3">
           <Row>
             <h1 className="text-light">Contact</h1>

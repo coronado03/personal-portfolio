@@ -3,7 +3,7 @@ import { Container, Button, Image, Row, Col } from "react-bootstrap";
 export default function Hero() {
   return (
     <>
-      <Container className="animated-section pb-5">
+      <Container className="animated-section py-5">
         <Row>
           <Col md={6} className="d-none d-lg-block">
             <Image className="align-self-end"
