@@ -43,7 +43,7 @@ export default function Contact() {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Control as="textarea" rows={3} placeholder="Message" />
+              <Form.Control required as="textarea" rows={3} placeholder="Message" />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
             <Button
