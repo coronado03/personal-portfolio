@@ -8,10 +8,10 @@ export default function Contact() {
           <Row>
             <h1 className="text-light">Contact</h1>
           </Row>
-            <p className="text-warning">Always active for different types of jobs, I'm just one click away.</p>
-            <Row>
-
-            </Row>
+          <p className="text-warning">
+            Always active for different types of jobs, I'm just one click away.
+          </p>
+          <Row></Row>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Control type="textarea" placeholder="Name" />

@@ -20,13 +20,19 @@ export default function Skills() {
               <Col sm={3} className="mb-3">
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link className="black" eventKey="first">Front End</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>  
-                    <Nav.Link className="black" eventKey="second">Back End</Nav.Link>
+                    <Nav.Link className="black" eventKey="first">
+                      Front End
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="black" eventKey="third">Other</Nav.Link>
+                    <Nav.Link className="black" eventKey="second">
+                      Back End
+                    </Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link className="black" eventKey="third">
+                      Other
+                    </Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -71,8 +77,6 @@ export default function Skills() {
                           className="skill-icons"
                         />
                       </Col>
-
-
                     </Row>
                   </Tab.Pane>
 
@@ -125,7 +129,6 @@ export default function Skills() {
                           className="skill-icons"
                         />
                       </Col>
-
                     </Row>
                   </Tab.Pane>
                 </Tab.Content>

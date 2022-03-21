@@ -9,9 +9,7 @@ export default function Navigation() {
       className="fs-3"
       expand="lg"
     >
-      
       <Container>
-      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav class>
@@ -19,10 +17,18 @@ export default function Navigation() {
           </Nav>
 
           <Nav className="mx-auto">
-            <Nav.Link classname="links" href="#about">About</Nav.Link>
-            <Nav.Link classname="links" href="#skills">Skills</Nav.Link>
-            <Nav.Link classname="links" href="#work">Work</Nav.Link>
-            <Nav.Link classname="links" href="#contact">Contact</Nav.Link>
+            <Nav.Link classname="links" href="#about">
+              About
+            </Nav.Link>
+            <Nav.Link classname="links" href="#skills">
+              Skills
+            </Nav.Link>
+            <Nav.Link classname="links" href="#work">
+              Work
+            </Nav.Link>
+            <Nav.Link classname="links" href="#contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
