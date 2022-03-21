@@ -6,13 +6,11 @@
 
 - [Repo](https://github.com/coronado03/personal-portfolio "Portfolio Repo")
 
-- [Live](<Homepage url> "Live View")
-
 - [Bugs](https://github.com/coronado03/personal-portfolio/issues "Issues Page")
 
 ## Screenshots
 
-![Home Page](/public/read-me/screenshot "Home Page")
+![Home Page](/public/read-me/screenshot.png "Home Page")
 
 ## Available Commands
 
@@ -61,7 +59,7 @@ For running the server file on you can use this command.
 
 ## Author
 
-**Rohit Jain**
+**Sebastian Coronado Media**
 
 - [Profile](https://github.com/coronado03 "coronado03")
 - [Website](https://sebastian-coronado-portfolio.netlify.app/ "Welcome")
