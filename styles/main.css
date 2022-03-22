@@ -30,22 +30,22 @@
 }
 
 .black{
-    color: #212529;
+    color: #212529 !important;
 }
 
 .black:hover {
-    color: #ffc107;
+    color: #ffc107 !important;
 }
 
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: #212529;
+    background-color: #212529 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #6c757d;
+    color: #6c757d !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ffc107;
+    color: #ffc107 !important;
 }
