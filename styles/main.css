@@ -40,6 +40,7 @@
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #212529 !important;
+    color: #fff !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
