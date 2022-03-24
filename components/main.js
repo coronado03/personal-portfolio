@@ -1,6 +1,8 @@
 import { Container, Button, Image, Row, Col } from "react-bootstrap";
 
+
 export default function Hero() {
+
   return (
     <>
       <Container className="animated-section py-5">

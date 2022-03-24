@@ -1,5 +1,5 @@
 import { Container, Button, Row, Form, Feedback } from "react-bootstrap";
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Contact() {
   const [validated, setValidated] = useState(false);
@@ -13,6 +13,38 @@ export default function Contact() {
 
     setValidated(true);
   };
+
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+
+
+  const handleSubmitCall = async (e) => {
+    e.preventDefault();
+     
+      const res = await fetch("api/sendgrid", {
+        body: JSON.stringify({
+          email: email,
+          fullname: fullname,
+          subject: "Portfolio message!",
+          message: message,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+          'Accept': 'application/json'
+        },
+        method: "POST",
+      });
+
+      const { error } = await res.json();
+      if (error) {
+        console.log(error);
+        return;
+      }
+    console.log(fullname, email, message);
+  };
+  
 
   return (
     <>
@@ -29,21 +61,21 @@ export default function Contact() {
             noValidate
             validated={validated}
             method="post"
-            onSubmit={handleSubmit}
+            onSubmit={handleSubmitCall}
           >
             <Form.Group className="mb-3" controlId="validationCustom01">
-              <Form.Control required type="textarea" placeholder="Name" />
+              <Form.Control name="fullname" value={fullname} onChange={(e) => { setFullname(e.target.value);}} required type="textarea" placeholder="Name" />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Control required type="email" placeholder="Email" />
+              <Form.Control name="email" value={email} onChange={(e) => { setEmail(e.target.value);}} required type="email" placeholder="Email" />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
             <Form.Group
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Control required as="textarea" rows={3} placeholder="Message" />
+              <Form.Control name="message" value={message} onChange={(e) => { setMessage(e.target.value);}} required as="textarea" rows={3} placeholder="Message" />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
             <Button
