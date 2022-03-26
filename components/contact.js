@@ -1,8 +1,13 @@
-import { Container, Button, Row, Form, Feedback } from "react-bootstrap";
+import { Container, Button, Row, Form, Modal } from "react-bootstrap";
 import React, { useState } from "react";
 
 export default function Contact() {
   const [validated, setValidated] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
@@ -14,15 +19,9 @@ export default function Contact() {
     setValidated(true);
   };
 
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-
-
   const handleSubmitCall = async (e) => {
     e.preventDefault();
-     
+    handleSubmit(e)
       const res = await fetch("api/sendgrid", {
         body: JSON.stringify({
           email: email,
@@ -42,12 +41,31 @@ export default function Contact() {
         console.log(error);
         return;
       }
-    console.log(fullname, email, message);
+
+      if (!error && validated == true) {
+        setModalShow(true)
+      }
   };
   
 
+
   return (
     <>
+     <Modal
+        size="sm"
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        aria-labelledby="example-modal-sizes-title-sm"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-sm">
+            Message Sent
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body> Await a response!</Modal.Body>
+      </Modal>
+      
+
       <Container fluid id="contact" className="mt-3 bg-dark">
         <Container className="animated-section p-3">
           <Row>
