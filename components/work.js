@@ -16,7 +16,7 @@ export default function Work() {
     <>
       <Container id="work" className="animated-section py-5">
         <Row>
-          <h1>Work</h1>
+          <h1>{"<Work/>"}</h1>
         </Row>
         <Row>
           <p className="text-muted">A few projects I've made on my own</p>

@@ -3,27 +3,31 @@ import { Container, Button, Image, Row, Col } from "react-bootstrap";
 export default function Footer() {
   return (
     <>
-      <Container fluid className="bg-dark text-light">
-        <Row className="animated-section text-sm-center text-lg-end">
+      <Container fluid className="bg-dark text-light pt-2">
+        <Row className="animated-section text-center">
           <Col>
-            <p>
               <a href="https://github.com/coronado03">
                 <Image
-                  className="mx-2"
+                  className="mx-2 social-links"
                   src="footer-icons/github.svg"
                 />
               </a>
               <a href="https://www.linkedin.com/in/sebasti%C3%A1n-coronado-003180217/">
                 <Image
-                  className="mx-2"
+                  className="mx-2 social-links"
                   src="footer-icons/linkedin.svg"
                 />
               </a>
-              © Copyright 2022. All right reserved
-
-            </p>
           </Col>
         </Row>
+
+        <Row className="animated-section text-center">
+          <Col>
+              <hr/>
+              <p>©Copyright 2022</p>
+          </Col>
+        </Row>
+        
       </Container>
     </>
   );

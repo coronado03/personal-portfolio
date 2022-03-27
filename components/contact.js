@@ -69,7 +69,7 @@ export default function Contact() {
       <Container fluid id="contact" className="mt-3 bg-dark">
         <Container className="animated-section p-3">
           <Row>
-            <h1 className="text-light">Contact</h1>
+            <h1 className="text-light">{"<Contact Me/>"}</h1>
           </Row>
           <p className="text-warning">
             Always active for different types of jobs, I'm just one click away.

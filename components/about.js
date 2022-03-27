@@ -6,7 +6,7 @@ export default function About() {
       <Container fluid id="about" className="mt-3 bg-dark">
         <Container className="animated-section py-5">
           <Row>
-            <h1 className="text-light">About Me</h1>
+            <h1 className="text-light">{"<About Me/>"}</h1>
           </Row>
           <p className="text-warning">Who is Sebastian?</p>
           <Row>

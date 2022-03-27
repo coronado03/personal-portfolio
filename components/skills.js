@@ -6,7 +6,7 @@ export default function Skills() {
       <Container fluid id="skills" className="mt-3">
         <Container className="animated-section py-5">
           <Row>
-            <h1>Skills</h1>
+            <h1>{"<Skills/>"}</h1>
           </Row>
 
           <Row>
