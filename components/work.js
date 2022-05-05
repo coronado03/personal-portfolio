@@ -49,20 +49,20 @@ export default function Work() {
 
           <Col>
             <Card>
-              <Card.Img variant="top" src="/work-images/talkanger.png" />
+              <Card.Img variant="top" src="/work-images/portfolio.png" />
               <Card.Body>
-                <Card.Title>Talkanger</Card.Title>
+                <Card.Title>Portfolio</Card.Title>
                 <Card.Text>
-                  Talkanger is a webapp that connects you to other people with
-                  different room numbers. This website was created using
-                  websockets for real time connection.
+                  A website with the listing of the work I've done as a developer.
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
+                  <Link href="https://sebastian-coronado-portfolio.netlify.app/">
                     <Button variant="warning">Live Demo</Button>
+                  </Link>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
-                    <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
+                    <Link href="https://github.com/coronado03/personal-portfolio">
                       <Button variant="outline-dark">Repository</Button>
                     </Link>
                   </Col>

@@ -73,6 +73,13 @@ export default function Skills() {
 
                       <Col>
                         <Image
+                          src="\skill-images\TAILWIND.svg"
+                          className="skill-icons"
+                        />
+                      </Col>
+
+                      <Col>
+                        <Image
                           src="\skill-images\NEXTJS.svg"
                           className="skill-icons"
                         />

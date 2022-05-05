@@ -1,4 +1,5 @@
 import { Container, Button, Image, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
 
 export default function Hero() {
@@ -19,23 +20,28 @@ export default function Hero() {
             </Row>
             <Row>
               <p>
-                Hello my name is Sebastian, I'm a 17 year old full stack Dev.
-                I'm currently majoring in Computer Engineering.
+                Hello my name is Sebastian, I'm a 18 year old full stack dev who is
+                currently majoring in Computer Engineering.
               </p>
             </Row>
 
             <Row className="mt-3">
               <Col>
                 {" "}
+
+                <a href="Sebastián's Resume.pdf" target="_blank">
                 <Button className="rounded-pill" variant="outline-dark">
                   Download CV
                 </Button>
+                </a>
+                
               </Col>
               <Col></Col>
             </Row>
           </Col>
         </Row>
       </Container>
+
     </>
   );
 }
