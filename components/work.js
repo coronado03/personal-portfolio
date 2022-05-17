@@ -34,9 +34,6 @@ export default function Work() {
                   websockets for real time connection.
                 </Card.Text>
                 <Row md={12}>
-                  <Col className="justify-content-center text-center">
-                    <Button variant="warning">Live Demo</Button>
-                  </Col>
                   <Col className="justify-co<ntent-center text-center">
                     <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
                       <Button variant="outline-dark">Repository</Button>
@@ -57,7 +54,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
-                  <Link href="https://sebastian-coronado-portfolio.netlify.app/">
+                  <Link href="https://todo-manager-online.herokuapp.com/?">
                     <Button variant="warning">Live Demo</Button>
                   </Link>
                   </Col>
@@ -73,13 +70,11 @@ export default function Work() {
 
           <Col>
             <Card>
-              <Card.Img variant="top" src="/work-images/talkanger.png" />
+              <Card.Img variant="top" src="/work-images/todo.png" />
               <Card.Body>
-                <Card.Title>Talkanger</Card.Title>
+                <Card.Title>Todo App</Card.Title>
                 <Card.Text>
-                  Talkanger is a webapp that connects you to other people with
-                  different room numbers. This website was created using
-                  websockets for real time connection.
+                  An online Todo list made with react using hooks.
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
@@ -93,30 +88,7 @@ export default function Work() {
                 </Row>
               </Card.Body>
             </Card>
-          </Col>
 
-          <Col>
-            <Card>
-              <Card.Img variant="top" src="/work-images/talkanger.png" />
-              <Card.Body>
-                <Card.Title>Talkanger</Card.Title>
-                <Card.Text>
-                  Talkanger is a webapp that connects you to other people with
-                  different room numbers. This website was created using
-                  websockets for real time connection.
-                </Card.Text>
-                <Row md={12}>
-                  <Col className="justify-content-center text-center">
-                    <Button variant="warning">Live Demo</Button>
-                  </Col>
-                  <Col className="justify-co<ntent-center text-center">
-                    <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
-                      <Button variant="outline-dark">Repository</Button>
-                    </Link>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
           </Col>
         </Row>
       </Container>
