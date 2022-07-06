@@ -10,7 +10,7 @@ export default function About() {
           <Row>
             <h1 className="text-light">{"<About Me/>"}</h1>
           </Row>
-          <p className="text-warning">Who is Sebastian?</p>
+          <p className="red">Who is Sebastian?</p>
           <Row>
             <Col>
               <p className="text-light">

@@ -71,7 +71,7 @@ export default function Contact() {
           <Row>
             <h1 className="text-light">{"<Contact Me/>"}</h1>
           </Row>
-          <p className="text-warning">
+          <p className="red">
             Always active for different types of jobs, I'm just one click away.
           </p>
           <Row></Row>

@@ -19,7 +19,7 @@ export default function Work() {
           <h1>{"<Work/>"}</h1>
         </Row>
         <Row>
-          <p className="text-muted">A few projects I've made on my own</p>
+          <p className="red">A few projects I've made on my own</p>
         </Row>
 
         <Row xs={1} lg={2} className="g-4">
@@ -55,7 +55,7 @@ export default function Work() {
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
                   <Link href="https://todo-manager-online.herokuapp.com/?">
-                    <Button variant="warning">Live Demo</Button>
+                    <Button variant="red">Live Demo</Button>
                   </Link>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
@@ -78,7 +78,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="justify-content-center text-center">
-                    <Button variant="warning">Live Demo</Button>
+                    <Button variant="red">Live Demo</Button>
                   </Col>
                   <Col className="justify-co<ntent-center text-center">
                     <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">

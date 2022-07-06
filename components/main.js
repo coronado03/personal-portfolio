@@ -13,7 +13,7 @@ export default function Hero() {
           </Col>
           <Col md={12} lg={6}>
             <Row id="main" className="mt-3">
-              <h4 className="text-muted">{"<Software Engineer/>"}</h4>
+              <h4 className="red">{"<Software Engineer/>"}</h4>
             </Row>
             <Row className="fs-1">
               <h1>Sebastian Coronado</h1>

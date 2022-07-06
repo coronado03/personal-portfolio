@@ -10,7 +10,7 @@ export default function Skills() {
           </Row>
 
           <Row>
-            <p className="text-muted">
+            <p className="red">
               The skills I usually use to bring projects to life
             </p>
           </Row>

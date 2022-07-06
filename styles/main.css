@@ -50,9 +50,12 @@ hr {
 }
 
 .black:hover {
-    color: #ffc107 !important;
+    color: #FA2742 !important;
 }
 
+.red {
+    color: #FA2742 !important;
+}
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #212529 !important;
@@ -64,7 +67,7 @@ hr {
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ffc107 !important;
+    color: #FA2742 !important;
 }
 
 
@@ -75,4 +78,9 @@ hr {
 .social-links:hover {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
+}
+
+.btn-red {
+    color: white; 
+    background-color: #FA2742 !important;
 }

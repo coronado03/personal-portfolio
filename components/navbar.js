@@ -16,7 +16,7 @@ export default function Navigation() {
             <Navbar.Brand href="#">Sebastian Coronado</Navbar.Brand>
           </Nav>
 
-          <Nav className="mx-auto">
+          <Nav className="ms-auto">
             <Nav.Link classname="links" href="#about">
               About
             </Nav.Link>
