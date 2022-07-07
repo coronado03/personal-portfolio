@@ -83,4 +83,10 @@ hr {
 .btn-red {
     color: white !important; 
     background-color: #FA2742 !important;
+    transition-property: transform, box-shadow !important;
+    transition-duration: .6s !important;
+}
+
+.btn-red:hover {
+    transform: scale(1.2);
 }
