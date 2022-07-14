@@ -71,13 +71,13 @@ hr {
 }
 
 
-.social-links {
-    transition: all .2s ease-in;
+.social-link {
+    transition: all .2s ease-in !important; 
 }
 
-.social-links:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+.social-link:hover {
+    -webkit-transform: translateY(-5px) !important;
+    transform: translateY(-5px) !important;
 }
 
 .btn-red {
