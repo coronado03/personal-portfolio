@@ -8,13 +8,13 @@ export default function Footer() {
           <Col>
               <a href="https://github.com/coronado03">
                 <Image
-                  className="mx-2 social-link"
+                  className="mx-2 socials"
                   src="footer-icons/github.svg"
                 />
               </a>
               <a href="https://www.linkedin.com/in/sebasti%C3%A1n-coronado-003180217/">
                 <Image
-                  className="mx-2 social-link"
+                  className="mx-2 socials"
                   src="footer-icons/linkedin.svg"
                 />
               </a>

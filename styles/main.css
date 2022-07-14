@@ -71,11 +71,11 @@ hr {
 }
 
 
-.social-link {
+.socials{
     transition: all .2s ease-in !important; 
 }
 
-.social-link:hover {
+.socials:hover {
     -webkit-transform: translateY(-5px) !important;
     transform: translateY(-5px) !important;
 }
