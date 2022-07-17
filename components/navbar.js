@@ -12,21 +12,21 @@ export default function Navigation() {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav class>
+          <Nav>
             <Navbar.Brand href="#">Sebastian Coronado</Navbar.Brand>
           </Nav>
 
           <Nav className="ms-auto">
-            <Nav.Link classname="links" href="#about">
+            <Nav.Link className="links" href="#about">
               About
             </Nav.Link>
-            <Nav.Link classname="links" href="#skills">
+            <Nav.Link className="links" href="#skills">
               Skills
             </Nav.Link>
-            <Nav.Link classname="links" href="#work">
+            <Nav.Link className="links" href="#work">
               Work
             </Nav.Link>
-            <Nav.Link classname="links" href="#contact">
+            <Nav.Link className="links" href="#contact">
               Contact
             </Nav.Link>
           </Nav>
