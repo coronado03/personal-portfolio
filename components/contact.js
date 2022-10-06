@@ -1,5 +1,6 @@
 import { Container, Button, Row, Form, Modal } from "react-bootstrap";
 import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function Contact() {
   const [validated, setValidated] = useState(false);
@@ -47,7 +48,10 @@ export default function Contact() {
       }
   };
   
-
+  //In view animaiton code
+  const {ref: myRef, inView: myElementIsVisible} = useInView({
+    triggerOnce: true,
+  })
 
   return (
     <>
@@ -67,9 +71,9 @@ export default function Contact() {
       
 
       <Container fluid id="contact" className="mt-3 bg-dark">
-        <Container className="animated-section p-3">
+        <Container className={`${myElementIsVisible ? 'animated-section' : "" } p-3`}>
           <Row>
-            <h1 className="text-light">{"<Contact Me/>"}</h1>
+            <h1 className="text-light" ref={myRef}>{"<Contact Me/>"}</h1>
           </Row>
           <p className="red">
             Always active for different types of jobs, I'm just one click away.

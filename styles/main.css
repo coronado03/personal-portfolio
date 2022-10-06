@@ -24,18 +24,20 @@ hr {
 
 
 .animated-section {
-    animation: transitionIn 0.75s;
+    animation: transitionIn 1s;
 }
 
 @keyframes transitionIn {
     from {
         opacity: 0;
-        transform: rotatex(-10deg);
+        transform: translateY(-200px); opacity: 0;
+        
     }
 
     to {
         opacity: 1;
-        transform: rotateX(0);
+        transform: translateY(0); opacity: 1;
+        
     }
 }
 
@@ -89,4 +91,10 @@ hr {
 
 .btn-red:hover {
     transform: scale(1.2);
+}
+
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 38vh;
 }

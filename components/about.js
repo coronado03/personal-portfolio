@@ -1,14 +1,20 @@
 import { Container, Button, Row, Col, Image } from "react-bootstrap";
+import { useInView } from "react-intersection-observer";
 
 export default function About() {
+  //In view animaiton code
+  const {ref: myRef, inView: myElementIsVisible} = useInView({
+    triggerOnce: true,
+  })
+ 
   return (
     <>
       
       <Container fluid id="about" className="mt-3 bg-dark">
         
-        <Container className="animated-section py-5">
+        <Container className={`${myElementIsVisible ? 'animated-section' : "" } py-5`}>
           <Row>
-            <h1 className="text-light">{"<About Me/>"}</h1>
+            <h1 className="text-light" ref={myRef}>{"<About Me/>"}</h1>
           </Row>
           <p className="red">Who is Sebastian?</p>
           <Row>

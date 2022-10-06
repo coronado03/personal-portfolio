@@ -6,8 +6,7 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 import About from "../components/about";
 
-import Head from 'next/head'
-
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <meta name="description" content="Portfolio of Sebastian Coronado!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navigation/>
       <Hero/>
       <About/>

@@ -1,10 +1,11 @@
 import { Container, Button, Image, Row, Col } from "react-bootstrap";
 
 export default function Footer() {
+
   return (
     <>
       <Container fluid className="bg-dark text-light pt-2">
-        <Row className="animated-section text-center">
+        <Row className={`text-center`}>
           <Col>
               <a href="https://github.com/coronado03">
                 <Image

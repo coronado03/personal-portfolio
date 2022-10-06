@@ -1,12 +1,18 @@
 import { Container, Button, Image, Row, Col, Nav, Tab } from "react-bootstrap";
+import { useInView } from "react-intersection-observer";
 
 export default function Skills() {
+    //In view animaiton code
+    const {ref: myRef, inView: myElementIsVisible} = useInView({
+      triggerOnce: true,
+     })
+
   return (
     <>
       <Container fluid id="skills" className="mt-3">
-        <Container className="animated-section py-5">
+        <Container className={`${myElementIsVisible ? 'animated-section' : "" } py-5`}>
           <Row>
-            <h1>{"<Skills/>"}</h1>
+            <h1 ref={myRef}>{"<Skills/>"}</h1>
           </Row>
 
           <Row>

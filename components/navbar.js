@@ -1,6 +1,12 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { useInView } from "react-intersection-observer";
 
 export default function Navigation() {
+  //In view animaiton code
+  const {ref: myRef, inView: myElementIsVisible} = useInView({
+    triggerOnce: true,
+   })
+
   return (
     <Navbar
       sticky="top"

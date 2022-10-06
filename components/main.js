@@ -1,19 +1,24 @@
 import { Container, Button, Image, Row, Col } from "react-bootstrap";
 import Link from "next/link";
+import { useInView } from "react-intersection-observer";
 
 
 export default function Hero() {
+  //In view animaiton code
+  const {ref: myRef, inView: myElementIsVisible} = useInView({
+      triggerOnce: true,
+   })
 
   return (
     <>
-      <Container className="animated-section py-5">
+      <Container className={`${myElementIsVisible ? 'animated-section' : "" } py-5`}>
         <Row>
           <Col md={6} className="d-none d-lg-block">
             <Image className="align-self-end" src="/main_undraw.svg" />
           </Col>
           <Col md={12} lg={6}>
             <Row id="main" className="mt-3">
-              <h4 className="red">{"<Software Engineer/>"}</h4>
+              <h4 className="red" ref={myRef}>{"<Software Engineer/>"}</h4>
             </Row>
             <Row className="fs-1">
               <h1>Sebastian Coronado</h1>
