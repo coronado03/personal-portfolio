@@ -34,7 +34,7 @@ export default function Hero() {
               <Col>
                 {" "}
 
-                <a href="Sebastián's Resume.pdf" target="_blank">
+                <a href="Resume.pdf" target="_blank">
                 <Button className="rounded-pill" variant="outline-dark">
                   Download CV
                 </Button>
