@@ -41,7 +41,7 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="align-items-end text-center">
-                    <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
+                    <Link href="https://github.com/coronado03/Timer-App">
                       <Button variant="outline-dark">Repository</Button>
                     </Link>
                   </Col>
@@ -52,15 +52,15 @@ export default function Work() {
 
           <Col>
             <Card className="h-100">
-              <Card.Img className="card-img" variant="top" src="/work-images/portfolio.png" />
+              <Card.Img className="card-img" variant="top" src="/work-images/timer.png" />
               <Card.Body className="d-flex flex-column">
-                <Card.Title>Portfolio</Card.Title>
+                <Card.Title>Poland Timer</Card.Title>
                 <Card.Text>
-                  A website with the listing of the work I've done as a developer.
+                  A personal website with a regressing countdown, the website also contains a clean ui that fits the theme. The design was built using Figma.
                 </Card.Text>
                 <Row className="" md={12}>
                   <Col className="justify-content-center text-center">
-                  <Link href="https://todo-manager-online.herokuapp.com/?">
+                  <Link href="https://plntimer.netlify.app/">
                     <Button variant="red">Live Demo</Button>
                   </Link>
                   </Col>
@@ -78,16 +78,18 @@ export default function Work() {
             <Card className="h-100">
               <Card.Img variant="top" src="/work-images/todo.png" />
               <Card.Body>
-                <Card.Title>Todo App</Card.Title>
+                <Card.Title>FEED Website</Card.Title>
                 <Card.Text>
-                  An online Todo list made with react using hooks.
+                  FEED is a fullstack webapp designed so that people in the IT department can commune. FEED takes inspiration from apps like DEV.to and Instagram.
                 </Card.Text>
                 <Row md={12}>
                   <Col className="align-items-end text-center">
+                  <Link href="">
                     <Button variant="red">Live Demo</Button>
+                  </Link>
                   </Col>
-                  <Col className="justify-co<ntent-center text-center">
-                    <Link href="https://github.com/coronado03/Talkanger/tree/main/global-chat">
+                  <Col className="justify-content-center text-center">
+                    <Link href="">
                       <Button variant="outline-dark">Repository</Button>
                     </Link>
                   </Col>
