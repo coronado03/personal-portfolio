@@ -66,6 +66,12 @@ export default function Skills() {
                       </Col>
                       <Col>
                         <Image
+                          src="\skill-images\TYPESCRIPT.svg"
+                          className="skill-icons"
+                        />
+                      </Col>
+                      <Col>
+                        <Image
                           src="\skill-images\REACT.svg"
                           className="skill-icons"
                         />
@@ -90,6 +96,7 @@ export default function Skills() {
                           className="skill-icons"
                         />
                       </Col>
+
                     </Row>
                   </Tab.Pane>
 
