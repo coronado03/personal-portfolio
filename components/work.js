@@ -84,12 +84,12 @@ export default function Work() {
                 </Card.Text>
                 <Row md={12}>
                   <Col className="align-items-end text-center">
-                  <Link href="">
+                  <Link href="https://feed-website-coronado03.vercel.app/">
                     <Button variant="red">Live Demo</Button>
                   </Link>
                   </Col>
                   <Col className="justify-content-center text-center">
-                    <Link href="">
+                    <Link href="https://github.com/coronado03/FEED-WEBSITE">
                       <Button variant="outline-dark">Repository</Button>
                     </Link>
                   </Col>
