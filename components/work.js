@@ -76,7 +76,7 @@ export default function Work() {
 
           <Col className="">
             <Card className="h-100">
-              <Card.Img variant="top" src="/work-images/todo.png" />
+              <Card.Img variant="top" src="/work-images/feed.png" />
               <Card.Body>
                 <Card.Title>FEED Website</Card.Title>
                 <Card.Text>
